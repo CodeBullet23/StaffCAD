@@ -2,7 +2,7 @@
 
 
 
-\*\*BotSmith Labs – StaffCAD Edition\*\*
+BotSmith Labs – StaffCAD Edition
 
 
 
