@@ -63,15 +63,13 @@ This project is created and maintained by @codebullet23
 
 🚀 Setup Instructions
 
+Clone the repository:
 
+bash
 
-1\. Clone the repository:
+git clone https://github.com/codebullet23/staffcad.git
 
-&#x20;  ```bash
-
-&#x20;  git clone https://github.com/codebullet23/staffcad.git
-
-&#x20;  cd staffcad
+cd staffcad
 
 
 
