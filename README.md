@@ -1,4 +1,3 @@
-<div align="center">
 ██████╗  ██████╗ ████████╗███████╗██╗    ██╗██╗████████╗██╗  ██╗
 ██╔══██╗██╔═══██╗╚══██╔══╝██╔════╝██║    ██║██║╚══██╔══╝██║  ██║
 ██████╔╝██║   ██║   ██║   █████╗  ██║ █╗ ██║██║   ██║   ███████║
@@ -7,20 +6,6 @@
 ╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚══════╝ ╚══╝╚══╝ ╚═╝   ╚═╝   ╚═╝  ╚═╝
 
               BOTSmith Labs – StaffCAD Edition
-
-BotSmith Labs – StaffCAD Edition
-
-Staff Control \& Administration Dashboard
-
-
-
-A lightweight moderation panel built with Flask.
-
-
-
-</div>
-
-
 
 StaffCAD is a lightweight moderation control panel built with Flask.  
 
