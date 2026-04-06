@@ -4,13 +4,7 @@
 
 BotSmith Labs – StaffCAD Edition
 
-
-
-
-
-
-
-\### \*Staff Control \& Administration Dashboard\*
+Staff Control \& Administration Dashboard
 
 
 
