@@ -11,41 +11,27 @@ StaffCAD is a lightweight moderation control panel built with Flask.
 
 It allows staff members to log in, manage other staff, and record moderation actions such as warnings, bans, kicks, and notes.  
 
-This project is created and maintained by \*\*@codebullet23\*\*.
+This project is created and maintained by @codebullet23
 
-
-
-\---
-
-
-
-\## 📌 Features
-
-
+📌 Features
 
 | Category | Details |
 
 |---------|---------|
 
-| \*\*Authentication\*\* | Login, logout, forced password change, default admin creation |
+ Authentication | Login, logout, forced password change, default admin creation |
 
-| \*\*Staff Management\*\* | Add staff, list staff, assign roles (admin/moderator) |
+ Staff Management | Add staff, list staff, assign roles (admin/moderator) |
 
-| \*\*Moderation Tools\*\* | Log actions (warn, ban, kick, note), track timestamps, track staff responsible |
+ Moderation Tools | Log actions (warn, ban, kick, note), track timestamps, track staff responsible |
 
-| \*\*Dashboard\*\* | View the 50 most recent actions in a clean table |
+ Dashboard | View the 50 most recent actions in a clean table |
 
-| \*\*Database\*\* | SQLite backend using SQLAlchemy |
+ Database | SQLite backend using SQLAlchemy |
 
-| \*\*UI\*\* | Bootstrap‑styled templates |
+ UI Bootstrap‑styled templates |
 
-
-
-\---
-
-
-
-\## 📁 Project Structure
+ 📁 Project Structure
 
 
 
@@ -75,13 +61,7 @@ This project is created and maintained by \*\*@codebullet23\*\*.
 
 └── cad.db
 
-
-
-\---
-
-
-
-\## 🚀 Setup Instructions
+🚀 Setup Instructions
 
 
 
