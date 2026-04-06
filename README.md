@@ -6,7 +6,7 @@
 
 
 
-!\[BotSmith Labs – StaffCAD Edition Logo](assets/logo.png)
+
 
 
 
