@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<h2 class="mb-3">Add Staff Member</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label">Username</label>
+        <input class="form-control" type="text" name="username" required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Temporary Password</label>
+        <input class="form-control" type="password" name="password" required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Role</label>
+        <select class="form-select" name="role">
+            <option value="moderator">Moderator</option>
+            <option value="admin">Admin</option>
+        </select>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Create Staff</button>
+    <a class="btn btn-secondary" href="{{ url_for('staff.staff_list') }}">Cancel</a>
+</form>
+{% endblock %}

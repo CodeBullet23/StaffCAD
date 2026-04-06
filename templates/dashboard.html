@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<h2 class="mb-3">Recent Actions</h2>
+<a class="btn btn-sm btn-primary mb-3" href="{{ url_for('actions.new_action') }}">New Action</a>
+
+<table class="table table-dark table-striped table-bordered align-middle">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Staff</th>
+      <th>Target</th>
+      <th>Platform</th>
+      <th>Type</th>
+      <th>Reason</th>
+      <th>Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for action in actions %}
+    <tr>
+      <td>{{ action.id }}</td>
+      <td>{{ action.staff.username }}</td>
+      <td>{{ action.target_user }}</td>
+      <td>{{ action.platform }}</td>
+      <td>{{ action.action_type }}</td>
+      <td>{{ action.reason }}</td>
+      <td>{{ action.created_at }}</td>
+    </tr>
+    {% else %}
+    <tr>
+      <td colspan="7" class="text-center text-muted">No actions logged yet.</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
